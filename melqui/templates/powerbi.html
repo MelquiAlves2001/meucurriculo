@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block body %}
+<body style="background-color: black;" xmlns="http://www.w3.org/1999/html">
+    <div class="container" style="color: white">
+        <div class="text-left"><h1>Benificios na sua Empresa</h1></div
+        <p class="text-justify">Power Bi:
+            Melhor software para criar painéis de controles, os dashboards,
+            trazendo grande capacidade analítica, ao analisar o passado e em alguns casos específicos o futuro,
+            onde traz a previsao de recebimento, ajudando nas decisões a serem feitas.
+        </p>
+        <div class="text-center">
+            <img src="{{url_for('static',filename='fotos/powerbi.png')}}" class="img-fluid w-100" style="width: 300px;">
+        </div>
+        <div class="row mt-2">
+        </div>
+        </div>
+        <div class="text-center">
+            <a class="btn btn-primary" style="width: 555px;" href="https://app.powerbi.com/view?r=eyJrIjoiODBlMjFjOTktMTZkYy00Nzg2LTg2NGUtMmI5MjAxZjg0Yzc2IiwidCI6IjYwOTlmNzIyLWQzMjQtNDIwNS04M2ZlLWI2ZGNmMjg2ODhmNCJ9" role="button">Dashboard Sac</a>
+            <a class="btn btn-primary" style="width: 555px;" href="https://app.powerbi.com/view?r=eyJrIjoiN2RhOTAxMWUtODUwMi00N2EwLWEzN2MtY2IwOWE5NmM3ZmQ5IiwidCI6IjYwOTlmNzIyLWQzMjQtNDIwNS04M2ZlLWI2ZGNmMjg2ODhmNCJ9" role="button">Dashboard DR</a>
+        </div>
+    <div class="row mt-5">
+    </div>
+</body>
+{% endblock %}

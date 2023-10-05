@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block body %}
+<body style="background-color: black;">
+    <div class="container" style="color: white">
+        <h1> Benificios na sua Empresa </h1>
+        <p>Sql Server:
+            Variavel provinda da linguagem de sql, na qual armazena milhões de informacoes,
+            sendo pratica e totalmente segura ao armazenar as informacoes,
+            usado muito para fazer integração com o Power bi
+        </p>
+        <div class="text-center">
+            <img src="{{url_for('static',filename='fotos/sql.png')}}" class="img-fluid w-100" style="width: 300px;">
+        </div>
+        <div class="row mt-5">
+        </div>
+    </div>
+</body>
+{% endblock %}

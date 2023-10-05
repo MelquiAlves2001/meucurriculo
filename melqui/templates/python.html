@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block body %}
+<body style="background-color: black;">
+    <div class="container" style="color: white">
+        <h1>Benificios na sua Empresa</h1>
+        <p>Python:
+            Melhor linguagem de programação, onde nos dar capacidade de desenvolver sistemas,
+            criar grandes analises com bases de dados gigantes,
+            sendo que nos traz a liberdade nas integrações tanto em outros softwares e
+            até mesmo linguagens de programação,
+            sendo usada por grandes empresas como google, Netflix e etc
+        </p>
+        <div class="text-center">
+            <img src="{{url_for('static',filename='fotos/python.png')}}" class="img-fluid w-100" style="width: 300px;">
+        </div>
+        <div class="row mt-2">
+        </div>
+        <div class="text-center">
+            <a class="btn btn-primary" style="width: 555px;" href="https://app.powerbi.com/view?r=eyJrIjoiODBlMjFjOTktMTZkYy00Nzg2LTg2NGUtMmI5MjAxZjg0Yzc2IiwidCI6IjYwOTlmNzIyLWQzMjQtNDIwNS04M2ZlLWI2ZGNmMjg2ODhmNCJ9" role="button">Micro Analise</a>
+            <a class="btn btn-primary" style="width: 555px;" href="https://app.powerbi.com/view?r=eyJrIjoiODBlMjFjOTktMTZkYy00Nzg2LTg2NGUtMmI5MjAxZjg0Yzc2IiwidCI6IjYwOTlmNzIyLWQzMjQtNDIwNS04M2ZlLWI2ZGNmMjg2ODhmNCJ9" role="button">Micro Analise</a>
+        </div>
+    </div>
+    <div class="row mt-5">
+    </div>
+    </div>
+</body>
+{% endblock %}

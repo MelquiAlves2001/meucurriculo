@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block body %}
+<body style="background-color: black;">
+    <div class="container" style="color: white">
+        <h1>Benificios na sua Empresa</h1>
+            <p>Word:
+                Melhor software para criar painéis de controles, os dashboards,
+                trazendo grande capacidade analítica, ao analisar o passado e em alguns casos específicos o futuro,
+                onde traz a previsao de recebimento, ajudando nas decisões a serem feitas.
+            </p>
+        <div class="text-center">
+            <img src="{{url_for('static',filename='fotos/word.png')}}" class="img-fluid w-100" style="width: 300px;">
+        </div>
+        <div class="row mt-2">
+        </div>
+        <div class="d-grid gap-2 col-6 mx-auto">
+            <a class="btn btn-primary" href="https://1drv.ms/w/s!Aiymc2w1BTuGgj9FwaBm8v0IjC3l?e=6WjyLa" role="button">Documento Docx </a>
+        </div>
+    </div>
+    <div class="row mt-5">
+    </div>
+    </div>
+</body>
+{% endblock %}
