@@ -36,3 +36,7 @@ def powerpoint():
 @app.route("/administracao")
 def administracao():
     return render_template("administracao.html")
+
+@app.route("/html&css")
+def html&css():
+    return render_template("html&css.html")
