@@ -2,19 +2,17 @@
 
 {% block body %}
 <body style="background-color: black;">
-    <div class="container" style="color: white">
+    <section class="container" style="color: white">
         <h1> Benificio na sua Empresa </h1>
-            <p>Administração:
-                Profissão que atribui grandes qualidades e capacidade apenas para os que a realmente a compreende,
-                entregando conhecimento desde o trabalho com recursos humanos ao logístico,
-                do operacional ao financeiro, ensinando a tomar grandes decisões,
-                que ajudam no dia a dia de pessoas físicas e jurídicas.
-            </p>
+        <p>Administração:
+            Profissão que atribui grandes qualidades e capacidade apenas para os que a realmente a compreende,
+            entregando conhecimento desde o trabalho com recursos humanos ao logístico,
+            do operacional ao financeiro, ensinando a tomar grandes decisões,
+            que ajudam no dia a dia de pessoas físicas e jurídicas.
+        </p>
         <div class="text-center">
-                <img src="{{url_for('static',filename='fotos/administracao.jpg')}}" class="img-fluid w-100" style="width: 300px;">
+            <img src="{{url_for('static',filename='fotos/administracao.jpg')}}" class="img-fluid w-100" style="width: 300px;">
         </div>
-        <div class="row mt-5">
-        </div>
-    </div>
+    </section>
 </body>
 {% endblock %}

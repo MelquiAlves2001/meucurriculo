@@ -2,7 +2,7 @@
 
 {% block body %}
 <body>
-    <div class="container"  style="color: white">
+    <section class="container"  style="color: white">
         <h1> Benificios na sua Empresa </h1>
         <p>Power Point:
             Um dos melhores softwares de apresentação se não o melhor,
@@ -10,16 +10,14 @@
             mostrar mais clareza em pontos específicos,
             trazendo até mesmo interatividade nas apresentações.
         </p>
-        <div class="col">
-            <div class="text-center">
-                <img src="{{url_for('static',filename='fotos/powerpoint.png')}}" class="img-fluid w-100" style="width: 300px;">
-            </div>
-            <div class="row mt-2">
-            </div>
-            <div class="d-grid gap-2 col-6 mx-auto">
-                <a class="btn btn-primary" href="https://1drv.ms/p/s!Aiymc2w1BTuGj1kCrXg2M1-jVte0?e=6wzH3k" role="button"><strong>Mi Apresentando</strong></a>
-            </div>
+        <div class="text-center">
+            <img src="{{url_for('static',filename='fotos/powerpoint.png')}}" class="img-fluid w-100" style="width: 300px;">
         </div>
+        <div class="row mt-2">
+        </div>
+    </section>
+    <div class="d-grid gap-2 col-6 mx-auto">
+        <a class="btn btn-primary" href="https://1drv.ms/p/s!Aiymc2w1BTuGj1kCrXg2M1-jVte0?e=6wzH3k" role="button"><strong>Mi Apresentando</strong></a>
     </div>
 </body>
 {% endblock %}
