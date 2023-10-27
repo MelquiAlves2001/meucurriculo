@@ -46,7 +46,8 @@
 
 .mae{
     color: white;
-    text-align: center;
+    /*text-align: center;*/
+    row-gap: 3rem;
 }
 
 .conteudo-principal {
