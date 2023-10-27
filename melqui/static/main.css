@@ -43,16 +43,17 @@
     box-sizing: border-box;
 }
 
-figure {
+img {
     width: 10rem
     height: 10rem
     text-align: center;
 }
 
 .grid{
+  widht: 100rem;
   display: grid;
   grid-template-columns: 1fr; /* duas colunas de tamanho igual */
-  grid-template-rows: auto; /* altura automática */
+  grid-template-rows: 2rem; /* altura automática */
   gap: 10px; /* espaço entre as células */
 }
 
