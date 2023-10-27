@@ -2,7 +2,6 @@
 <html lang="pt-BR">
 
 <head>
-
     <meta charset="UTF-8">
     <title>Melquisedeque C. Alves</title>
 
@@ -11,15 +10,22 @@
 
     {% block head %}
     {% endblock %}
-
 </head>
 
 <body>
+    <header>
         {%include 'navbar.html'%}
-
+    </header>
+    <main>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
-
       {% block body %}
       {% endblock %}
+    </main>
+    <footer>
+        {block footer}
+            <div class="row mt-5">
+            </div>
+        {endblock}
+    </footer>
 </body>
 </html>
