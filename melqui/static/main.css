@@ -4,8 +4,8 @@ header {
     color: white;
 }
 
-a {
+a.link{
    text-decoration: none;
-   color: white;
+   text-decoration-color: white;
 }
 
