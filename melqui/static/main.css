@@ -37,15 +37,19 @@
     font-weight: 500
 }
 
-.conteudo-principal {
-    color: white;
-    display: flex;
-    gap: 2rem;
-    /*line-height: 1*/
-    text-align: center;
+.grid{
+  display: grid;
+  grid-template-columns: 1fr; /* duas colunas de tamanho igual */
+  grid-template-rows: auto; /* altura automática */
+  gap: 10px; /* espaço entre as células */
 }
 
 .mae{
     color: white;
     text-align: center;
+}
+
+.conteudo-principal {
+    display: flex;
+    /*line-height: 1*/
 }
