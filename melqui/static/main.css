@@ -7,7 +7,9 @@
 img {
     width: 10rem
     height: 10rem
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .adm {
@@ -29,9 +31,9 @@ img {
 
 .mae{
     color: white;
-    row-gap: 3rem;
+    row-gap: 5rem;
 }
 
 .conteudo-principal {
-    line-height: 2;
+    grid-template-rows: 2rem;
 }
