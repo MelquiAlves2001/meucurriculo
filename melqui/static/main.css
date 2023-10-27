@@ -19,8 +19,15 @@ img {
 }
 
 .adm {
-    width: 2.5rem
-    height: 5rem
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.grid {
+    widht: 100rem;
+    display: grid;
+    grid-auto-flow: rows;
+    grid-auto-rows: 40rem;
 }
 
 .container {
