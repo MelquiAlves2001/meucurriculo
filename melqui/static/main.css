@@ -5,16 +5,12 @@ header {
 }
 
 img {
-    width: 1000px;
-    height: 500px;
+    width: 1250px;
+    height: 650px;
 }
 
 #qrcode{
-    width: 100px;
-    height: 100px;
-}
-
-.adm {
     width: 25px;
     height: 25px;
 }
+
