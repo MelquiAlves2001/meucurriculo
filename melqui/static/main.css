@@ -43,6 +43,11 @@
     box-sizing: border-box;
 }
 
+figure {
+    width: 10rem
+    height: 100px
+}
+
 .grid{
   display: grid;
   grid-template-columns: 1fr; /* duas colunas de tamanho igual */
