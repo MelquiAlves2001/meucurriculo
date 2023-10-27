@@ -39,8 +39,9 @@
 
 .grid{
     display: grid;
-  & .conteudo-principal {
-        row-gap: 8rem;
-        }
     }
+
+.conteudo-principal {
+    row-gap: 8rem;
+}
 
