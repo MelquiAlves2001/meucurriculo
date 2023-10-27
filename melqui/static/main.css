@@ -37,13 +37,15 @@
     font-weight: 500
 }
 
-.grid{
-    display: grid;
-    }
-
 .conteudo-principal {
-    row-gap: 8 rem;
     color: white;
+    display: flex;
+    gap: 2rem;
     /*line-height: 1*/
+    text-align: center;
 }
 
+.mae{
+    color: white;
+    text-align: center;
+}
