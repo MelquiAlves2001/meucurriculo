@@ -37,3 +37,10 @@
     font-weight: 500
 }
 
+.grid{
+    display: grid;
+  & .conteudo-principal {
+        row-gap: 8rem;
+        }
+    }
+
