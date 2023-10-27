@@ -10,6 +10,10 @@ img {
     text-align: center;
 }
 
+.container {
+    color: white;
+}
+
 .grid{
   widht: 100rem;
   display: grid;
@@ -20,10 +24,9 @@ img {
 
 .mae{
     color: white;
-    /*text-align: center;*/
     row-gap: 3rem;
 }
 
 .conteudo-principal {
-    /*line-height: 1*/
+    line-height: 2;
 }
