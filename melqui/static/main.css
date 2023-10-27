@@ -42,7 +42,8 @@
     }
 
 .conteudo-principal {
-    row-gap: 8rem;
-    line-height: 1
+    row-gap: 8 rem;
+    color: white;
+    /*line-height: 1*/
 }
 
