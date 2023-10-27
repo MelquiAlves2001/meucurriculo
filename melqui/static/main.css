@@ -10,6 +10,11 @@ img {
     text-align: center;
 }
 
+.adm {
+    width: 5rem
+    height: 10rem
+}
+
 .container {
     color: white;
 }
