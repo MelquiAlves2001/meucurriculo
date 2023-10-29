@@ -9,11 +9,12 @@ html {
 }
 
 body {
-    margin: 5rem;
-    padding: 5rem;
+    margin: 1rem;
+    padding: 1rem;
     font-family: "Montserrat", sans-serif;
     line-height: 1.4;
     background-color: black;
+    gap: 2rem;
 }
 
 h1 {
