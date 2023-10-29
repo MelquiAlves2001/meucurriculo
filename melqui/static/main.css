@@ -68,18 +68,18 @@ nav {
     }
 }
 
-.botao{
+.botao {
     display: flex;
-    column-gap: 5rem;
+    column-gap: 10rem;
+    align-items: center;
+    justify-content: space-between;
 
-    & a.button {
+    & a.btn btn-primary {
         cursor: pointer;
         background-color: #0a75ad;
         border-color: black;
         color: white;
         font-size: 1.5rem;
-        align-items: center;
-        justify-content: center;
         widht:50rem;
     }
 }
