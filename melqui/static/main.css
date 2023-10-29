@@ -1,5 +1,22 @@
-body,
-header {
-    background-color: black;
-    color: white;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    fot-size: 1.8rem;
+    line-height: 1.4;
+}
+
+.grid {
+    widht: 100rem;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-rows: 40rem;
 }
