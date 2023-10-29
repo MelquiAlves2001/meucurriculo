@@ -70,7 +70,7 @@ nav {
 
 .botao{
     widht: 100rem;
-    & .btn-primary {
+    & .btn btn-primary {
         cursor: pointer;
         background-color: #0a75ad;
         border-color: black;
