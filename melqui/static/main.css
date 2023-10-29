@@ -48,7 +48,7 @@ nav {
     margin: 5rem;
     display: grid;
     width: 100rem;
-    gap: 5rem;
+    gap: 2.5rem;
     align-items: center;
     justify-content: center;
     color: white;
@@ -64,18 +64,6 @@ nav {
     & p {
         font-size: 1.8rem;
     }
-}
-
-.explicando {
-    gap: 50rem;
-    align-items: center;
-    justify-content: center;
-    box-sizing: border-box;
-    widht: 100rem;
-}
-
-.redes-sociais {
-    grid-template-rows: 2fr
 }
 
 .btn-primary: hover {
