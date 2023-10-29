@@ -65,9 +65,14 @@ header,
     grid-template-rows: 2fr
 }
 
-.botao {
+.botao: hover {
+    cursor: pointer;
+    border: 1;
+    padding: 2rem; #não usar o padding quando querer arredondar
+    background-color: blue;
+    color: white;
+    font-size: 1.8rem;
     align-items: center;
     justify-content: center;
-    font-size: 1.8rem;
-    color: white;
 }
+
