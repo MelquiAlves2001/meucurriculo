@@ -20,16 +20,10 @@ body {
 h1 {
     font-size: 3rem;
     color: white;
-}
-
-h4 {
+  & h4 {
     font-size: 2.2rem;
-    color: white;
-}
-
-p {
+  & p {
     font-size: 1.8rem;
-    color: white;
 }
 
 nav {
