@@ -36,7 +36,6 @@ nav {
     background-color: black;
 }
 
-
 .grid {
     widht: 100rem;
     display: grid;
@@ -59,4 +58,9 @@ nav {
 
 .redes-sociais {
     grid-template-rows: 2fr
+}
+
+.botao {
+    font-size: 1.8rem;
+    color: white;
 }
