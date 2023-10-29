@@ -52,7 +52,7 @@ nav {
 
 .explicando {
     gap: 50rem;
-    align-content: center;
+    align-items: center;
     justify-content: center;
 }
 
@@ -61,6 +61,8 @@ nav {
 }
 
 .botao {
+    align-items: center;
+    justify-content: center;
     font-size: 1.8rem;
     color: white;
 }
