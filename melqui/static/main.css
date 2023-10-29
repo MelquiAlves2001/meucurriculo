@@ -74,6 +74,16 @@ nav {
     align-items: center;
     justify-content: space-between;
 
+    & .btn-primary {
+        color: #fff;
+        background-color: #0a75ad;
+        border-color: #0d6efd;
+        border-color: white;
+        width: 50rem;
+        display: grid;
+        justify-content: center;
+        cursor: pointer;
+
     & a.btn btn-primary {
         cursor: pointer;
         background-color: #0a75ad;
