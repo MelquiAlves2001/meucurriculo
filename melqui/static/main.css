@@ -32,10 +32,12 @@ p {
 }
 
 nav {
+    background-color: black;
+  & #dropdownMenuButton1 {
     font-family: "Montserrat", sans-serif;
     font-size: 1.8rem;
     color: white;
-    background-color: black;
+}
 }
 
 .grid {
