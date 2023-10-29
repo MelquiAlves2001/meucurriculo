@@ -10,9 +10,8 @@ html {
 
 body {
     font-family: "Montserrat", sans-serif;
-    fot-size: 1.8rem;
     line-height: 1.4;
-    background: black;
+    background-color: black;
 }
 
 .grid {
@@ -33,7 +32,11 @@ p {
     color: white;
 }
 
-/*nav {
+nav {
+    font-family: "Montserrat", sans-serif;
+    font-size: 0.6rem ;
+    color: white
+    background-color: black;
     align-content: center;
     justify-content: center;
-}*/
+}
