@@ -18,5 +18,10 @@ body {
     widht: 100rem;
     display: grid;
     grid-auto-flow: column;
-    grid-auto-rows: 40rem;
+    grid-auto-rows: 40rem 50rem;
 }
+
+/*nav {
+    align-content: center;
+    justify-content: center;
+}*/
