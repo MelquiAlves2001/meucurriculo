@@ -65,13 +65,20 @@ nav {
 }
 
 .btn-primary: hover {
-    cursor: pointer;
-    border: 1;
+    widht: 3rem
+    border: 2;
+    margin: 2rem
     padding: 2rem;
+    cursor: pointer;
     background-color: black;
     color: white;
     font-size: 1.8rem;
     align-items: center;
     justify-content: center;
+}
+
+footer {
+    margin: 3rem;
+    padding: 3rem;
 }
 
