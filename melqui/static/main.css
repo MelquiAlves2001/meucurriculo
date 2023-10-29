@@ -70,7 +70,9 @@ nav {
 
 .botao{
     display: flex;
-    & a.btn btn-primary {
+    column-gap: 5rem;
+
+    & a.button {
         cursor: pointer;
         background-color: #0a75ad;
         border-color: black;
