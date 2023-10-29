@@ -19,17 +19,17 @@ body {
     widht: 100rem;
     display: grid;
     grid-auto-flow: column;
-    grid-auto-rows: 40rem;
+    grid-auto-rows: 20rem;
     gap: 2rem;
 }
 
 h1 {
-    font-size: 25rem;
+    font-size: 2rem;
     color: white;
 }
 
 p {
-    font-size: 16rem;
+    font-size: 0.6rem;
     color: white;
 }
 
