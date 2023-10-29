@@ -17,15 +17,6 @@ body {
     display: grid;
 }
 
-h1 {
-    font-size: 3rem;
-    color: white;
-  & h4 {
-    font-size: 2.2rem;
-  & p {
-    font-size: 1.8rem;
-}
-
 nav {
     display: grid;
     align-items: center;
@@ -60,6 +51,19 @@ nav {
     gap: 5rem;
     align-items: center;
     justify-content: center;
+    color: white;
+
+    & h1 {
+        font-size: 3rem;
+        color: white;
+    }
+    & h4 {
+        font-size: 2.2rem;
+        color:white
+    }
+    & p {
+        font-size: 1.8rem;
+    }
 }
 
 .explicando {
