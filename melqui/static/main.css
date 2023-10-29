@@ -9,7 +9,8 @@ html {
 }
 
 body {
-    width: 100rem;
+    margin: 5rem;
+    padding: 5rem;
     font-family: "Montserrat", sans-serif;
     line-height: 1.4;
     background-color: black;
@@ -34,7 +35,7 @@ nav {
     font-family: "Montserrat", sans-serif;
     font-size: 1.8rem ;
     color: white
-    background-color: black;
+    background-color: white;
 }
 
 .grid {
