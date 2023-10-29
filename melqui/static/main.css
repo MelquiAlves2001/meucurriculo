@@ -34,10 +34,13 @@ p {
 
 nav {
     background-color: black;
-  & #dropdownMenuButton1 {
+  & #dropdownMenuButton1,
+    #navbarSupportedContent{
     font-family: "Montserrat", sans-serif;
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     color: white;
+  & dropdown-menu{
+}
 }
 }
 
@@ -49,8 +52,11 @@ nav {
 }
 
 .mae {
+    padding: 5rem;
+    margin: 5rem;
+    display: grid;
     width: 100rem;
-    gap: 50rem;
+    gap: 5rem;
     align-items: center;
     justify-content: center;
 }
