@@ -54,6 +54,8 @@ nav {
     gap: 50rem;
     align-items: center;
     justify-content: center;
+    box-sizing: border-box;
+    widht: 100rem;
 }
 
 .redes-sociais {
