@@ -45,6 +45,7 @@ nav {
 }
 
 .mae {
+    width: 100rem;
     gap: 50rem;
     align-content: center;
     justify-content: center;
@@ -58,5 +59,4 @@ nav {
 
 .redes-sociais {
     grid-template-rows: 2fr
-
 }
