@@ -83,15 +83,6 @@ nav {
         display: grid;
         justify-content: center;
         cursor: pointer;
-
-    & a.btn btn-primary {
-        cursor: pointer;
-        background-color: #0a75ad;
-        border-color: black;
-        color: white;
-        font-size: 1.5rem;
-        widht:50rem;
-    }
 }
 
 footer {
