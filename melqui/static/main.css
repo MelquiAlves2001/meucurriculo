@@ -46,7 +46,7 @@ nav {
 .mae {
     width: 100rem;
     gap: 50rem;
-    align-content: center;
+    align-items: center;
     justify-content: center;
 }
 
