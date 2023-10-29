@@ -2,21 +2,23 @@
 
 {% block body %}
 <body>
-    <section class="soft">
-        <h1>Python</h1>
-        <p>  Melhor linguagem de programação, onde nos dar capacidade de desenvolver sistemas,
-            criar grandes analises com bases de dados gigantes,
-            sendo que nos traz a liberdade nas integrações tanto em outros softwares e
-            até mesmo linguagens de programação,
-            sendo usada por grandes empresas como google, Netflix e etc
-        </p>
-        <figure>
-            <img src="{{url_for('static',filename='fotos/python.png')}}" width="1100px" height="650px">
-        </figure>
-        <div class="text-center">
+    <section class="mae">
+        <section class="explicando">
+            <h1>Python</h1>
+            <p>  Melhor linguagem de programação, onde nos dar capacidade de desenvolver sistemas,
+                criar grandes analises com bases de dados gigantes,
+                sendo que nos traz a liberdade nas integrações tanto em outros softwares e
+                até mesmo linguagens de programação,
+                sendo usada por grandes empresas como google, Netflix e etc
+            </p>
+        </section>
+            <figure>
+                <img src="{{url_for('static',filename='fotos/python.png')}}" width="1100px" height="650px">
+            </figure>
+        <section class="botao">
             <a class="btn btn-primary" style="width: 555px;" href="{{url_for('static',filename='pythonarquivos/consultajuridica.zip')}}" role="button" download><strong>Juridica(Web Scraping)</strong></a>
             <a class="btn btn-primary" style="width: 555px;" href="{{url_for('static',filename='pythonarquivos/analisededados.zip')}}" role="button" download><strong>Analise de Dados</strong></a>
-        </div>
+        </section>
     </section>
 </body>
 {% endblock %}

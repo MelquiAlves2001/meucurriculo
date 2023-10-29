@@ -2,18 +2,22 @@
 
 {% block body %}
 <body>
-    <section class="soft">
-        <h1>Excel</h1>
-        <p>   É ótimo ao criar pequenas tabelas e até mesmo relatórios semelhante ao Power bi,
-            mais muito interessante ao fazer previsões do que se pode acontecer no futuro,
-            sendo muito prático e rápido ao criar analises.
-        </p>
-        <figure>
-            <img src="{{url_for('static',filename='fotos/excel.png')}}" width="1100px" height="650px">
-        </figure>
-        <div class="text-center">
+    <section class="mae">
+        <section class="explicando">
+            <h1>Excel</h1>
+            <p>   É ótimo ao criar pequenas tabelas e até mesmo relatórios semelhante ao Power bi,
+                mais muito interessante ao fazer previsões do que se pode acontecer no futuro,
+                sendo muito prático e rápido ao criar analises.
+            </p>
+        </section>
+        <section class="imagem">
+            <figure>
+                <img src="{{url_for('static',filename='fotos/excel.png')}}" width="1100px" height="650px">
+            </figure>
+        </section>
+        <section class="botao">
             <a class="btn btn-primary" style="width: 555px" href="https://1drv.ms/x/s!Aiymc2w1BTuGnR_oRvWtzPLRqNwQ?e=akg6ZX" role="button" target="_blank"><strong>Dashboard de Vendas</strong></a>
-        </div>
+        </section>
     </section>
 </body>
 {% endblock %}

@@ -2,14 +2,16 @@
 
 {% block body %}
 <body>
-    <section class="soft">
-        <h1>HTML&CSS</h1>
-        <p>   Linguagem de programação onde Html traz em si o backend na qual é toda a estrutura prescisa para criação de sites,
-            enquanto Css traz o Frontend, ou seja, todo o desingn, layout do site.
-        </p>
-        <figure>
-            <img src="{{url_for('static',filename='fotos/htmlecss.png')}}" width="1100px" height="650px">
-        </figure>
+    <section class="mae">
+        <section class="explicando">
+            <h1>HTML&CSS</h1>
+            <p>   Linguagem de programação onde Html traz em si o backend na qual é toda a estrutura prescisa para criação de sites,
+                enquanto Css traz o Frontend, ou seja, todo o desingn, layout do site.
+            </p>
+        </section>
+            <figure>
+                <img src="{{url_for('static',filename='fotos/htmlecss.png')}}" width="1100px" height="650px">
+            </figure>
     </section>
 </body>
 {% endblock %}

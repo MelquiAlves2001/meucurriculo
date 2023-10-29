@@ -2,16 +2,18 @@
 
 {% block body %}
 <body>
-    <section class="soft">
-        <h1>Administração</h1>
-        <p>    Profissão que atribui grandes qualidades e capacidade apenas para os que a realmente a compreende,
-            entregando conhecimento desde o trabalho com recursos humanos ao logístico,
-            do operacional ao financeiro, ensinando a tomar grandes decisões,
-            que ajudam no dia a dia de pessoas físicas e jurídicas.
-        </p>
-        <figure>
-            <img src="{{url_for('static',filename='fotos/administracao.jpg')}}" width="1100px" height="650px">
-        </figure>
+    <section class="mae">
+        <section class="explicando">
+            <h1>Administração</h1>
+            <p>    Profissão que atribui grandes qualidades e capacidade apenas para os que a realmente a compreende,
+                entregando conhecimento desde o trabalho com recursos humanos ao logístico,
+                do operacional ao financeiro, ensinando a tomar grandes decisões,
+                que ajudam no dia a dia de pessoas físicas e jurídicas.
+            </p>
+        </section>
+            <figure>
+                <img src="{{url_for('static',filename='fotos/administracao.jpg')}}" width="1100px" height="650px">
+            </figure>
     </section>
 </body>
 {% endblock %}
