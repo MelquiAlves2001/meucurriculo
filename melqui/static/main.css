@@ -27,13 +27,20 @@ h1 {
 }
 
 nav {
+    display: grid;
+    align-items: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
     background-color: black;
+    position: relative;
+
   & #dropdownMenuButton1,
     #navbarSupportedContent{
     font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
     color: white;
-  & dropdown-menu{
+
+  & .dropdown-menu{
 }
 }
 }
