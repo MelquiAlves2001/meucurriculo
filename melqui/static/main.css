@@ -113,6 +113,12 @@ img {
     height: 80rem;
 }
 
+#whats,
+ linkedin{
+    width: 50rem;
+    height: 50rem;
+}
+
 #qrcodewhatsapp,
  qrcodelinkdin{
    width: 50rem!important;
@@ -135,6 +141,8 @@ img {
         cursor: pointer;
 }
 }
+
+
 
 footer {
     margin: 1rem;
