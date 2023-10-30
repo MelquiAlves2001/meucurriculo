@@ -145,13 +145,13 @@ img {
         justify-content: center;
         cursor: pointer;
     }
+}
 
-    & #unico{
-        display: grid;
-        column-gap: 50%;
-        align-items: center;
-        justify-content: center;
-    }
+#unico{
+    display: grid;
+    column-gap: 50%;
+    align-items: center;
+    justify-content: center;
 }
 
 footer {
