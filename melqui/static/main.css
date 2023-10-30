@@ -65,13 +65,13 @@ nav {
     }
     & p {
         font-size: 1.8rem;
-        text-align: center;
+        text-align: left;
     }
 }
 
 img {
-    width: 10rem;
-    height: 10rem;
+    width: 100rem;
+    height: 80rem;
 }
 
 .botao {
