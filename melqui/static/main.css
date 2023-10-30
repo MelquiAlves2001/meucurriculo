@@ -131,7 +131,7 @@ img {
 
 .botao {
     display: flex;
-    column-gap: 10rem;
+    column-gap: 50%;
     align-items: center;
     justify-content: space-between;
 
