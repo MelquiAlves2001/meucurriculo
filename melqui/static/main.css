@@ -107,12 +107,12 @@ nav {
         text-align: left;
     }
 
-    & #principal{
+    & :#principal{
         margin: 2rem 0rem;
     }
 
-    & #unico{
-    align-item: center;
+    & :#unico{
+        align-item: center;
     }
 }
 
