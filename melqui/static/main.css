@@ -27,13 +27,13 @@ nav {
     position: relative;
     color: white;
 
-  & #dropdownMenuButton1,
-    #navbarSupportedContent{
+    & #dropdownMenuButton1,
+      #navbarSupportedContent{
         font-family: "Montserrat", sans-serif;
         font-size: 2rem;
         color: white;
     }
-  & .dropdown-menu{
+    & .dropdown-menu{
         position: absolute;
         top: 100%;
         left: 0;
@@ -50,7 +50,7 @@ nav {
         border: 0.2rem solid rgba(0,0,0,.15);
         border-radius: 0.25rem;
         }
-  & .dropdown-item {
+    & .dropdown-item {
         display: block;
         width: 100%;
         padding: 0.25rem 1rem;
@@ -63,7 +63,11 @@ nav {
         background-color: black;
         font-size: 2rem;
         border: 0;
-}
+    }
+
+    & nav-item{
+
+    }
 }
 
 .grid {
