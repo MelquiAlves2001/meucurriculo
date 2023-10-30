@@ -107,8 +107,9 @@ nav {
         text-align: left;
     }
 
-    & #princiapal{
+    & #principal{
         margin: 1rem;
+        align-text: center;
     }
 }
 
