@@ -108,11 +108,7 @@ nav {
     }
 
     & :#principal{
-        margin: 2rem 0rem;
-    }
-
-    & :#unico{
-        align-item: center;
+         margin: 2rem 0rem;
     }
 }
 
@@ -147,7 +143,11 @@ img {
         display: grid;
         justify-content: center;
         cursor: pointer;
-}
+    }
+
+    & #unico{
+        align-item: center;
+    }
 }
 
 footer {
