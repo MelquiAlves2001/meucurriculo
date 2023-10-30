@@ -65,8 +65,8 @@ nav {
         border: 0;
     }
 
-    & nav-item{
-
+    & dropdown{
+    display: grid;
     }
 }
 
