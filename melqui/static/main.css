@@ -111,6 +111,10 @@ nav {
         margin: 1rem;
         align-text: center;
     }
+
+    & #unico{
+    align-item: center;
+    }
 }
 
 img {
