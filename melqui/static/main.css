@@ -89,9 +89,9 @@ nav {
     padding: 5rem;
     margin: 5rem;
     display: grid;
-    gap: 1rem;
+    gap: 2rem;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     color: white;
 
     & h1 {
