@@ -75,9 +75,9 @@ img {
 }
 
 #id="qrwhatsapp",
-#id="qrlinkedin"{
-    width: 20rem;
-    height: 20rem;
+ id="qrlinkedin"{
+    width: 50rem;
+    height: 50rem;
 }
 
 .botao {
