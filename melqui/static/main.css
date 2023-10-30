@@ -113,6 +113,12 @@ img {
     height: 80rem;
 }
 
+#qrcodewhatsapp,
+ qrcodelinkdin{
+   width: 50rem!important;
+   height: 50rem!important;
+ }
+
 .botao {
     display: flex;
     column-gap: 10rem;
