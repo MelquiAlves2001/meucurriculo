@@ -134,7 +134,7 @@ img {
     display: flex;
     column-gap: 50%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center; /*center foi colocado, no lugar de space-Between, que no final não alterou a forma dos botoes que estao em 2 em algumas paginas*/
 
     & .btn-primary {
         color: #fff;
@@ -144,10 +144,6 @@ img {
         display: grid;
         justify-content: center;
         cursor: pointer;
-    }
-
-    & #unico{
-        justify-content: center;
     }
 }
 
