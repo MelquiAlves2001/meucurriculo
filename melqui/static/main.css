@@ -31,6 +31,7 @@ nav {
     #navbarSupportedContent{
     font-family: "Montserrat", sans-serif;
     font-size: 2rem;
+    color: white;
 
   & .dropdown-menu{
     position: absolute;
