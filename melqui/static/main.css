@@ -106,10 +106,10 @@ nav {
         font-size: 1.8rem;
         text-align: left;
     }
+}
 
-    & :#principal{
-         margin: 2rem 0rem;
-    }
+#principal{
+     margin: 2rem 0rem;
 }
 
 img {
@@ -144,10 +144,10 @@ img {
         justify-content: center;
         cursor: pointer;
     }
+}
 
-    & #unico{
-        align-item: center;
-    }
+#unico{
+    align-item: center;
 }
 
 footer {
