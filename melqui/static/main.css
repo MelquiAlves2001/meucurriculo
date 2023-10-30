@@ -103,12 +103,6 @@ img {
     height: 80rem;
 }
 
-#id="qrwhatsapp",
- id="qrlinkedin"{
-    width: 50rem;
-    height: 50rem;
-}
-
 .botao {
     display: flex;
     column-gap: 10rem;
