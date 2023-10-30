@@ -65,7 +65,13 @@ nav {
     }
     & p {
         font-size: 1.8rem;
+        text-align: center;
     }
+}
+
+img {
+    width: 10rem;
+    height: 10rem;
 }
 
 .botao {
@@ -84,6 +90,7 @@ nav {
         justify-content: center;
         cursor: pointer;
 }
+
 
 footer {
     margin: 1rem;
