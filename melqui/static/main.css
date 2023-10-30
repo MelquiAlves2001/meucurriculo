@@ -147,7 +147,10 @@ img {
     }
 
     & #unico{
-        text-align: center;
+        display: grid;
+        column-gap: 50%;
+        align-items: center;
+        justify-content: center;
     }
 }
 
