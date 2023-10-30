@@ -71,7 +71,7 @@ nav {
         align-items: center;
     }
 
-    & .nav-item {
+    & li.nav-item {
         font-size: 2rem;
     }
 }
