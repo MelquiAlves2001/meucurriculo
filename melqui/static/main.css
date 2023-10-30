@@ -71,7 +71,7 @@ nav {
         align-items: center;
     }
 
-    & li.nav-item {
+    & .navbar-brand {
         font-size: 2rem;
     }
 }
@@ -141,8 +141,6 @@ img {
         cursor: pointer;
 }
 }
-
-
 
 footer {
     margin: 1rem;
