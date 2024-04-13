@@ -138,9 +138,11 @@ img {
 
     & .btn-primary {
         color: #fff;
+        font-size: 1.5rem;
         background-color: #0a75ad;
         border-color: white;
         width: 50rem;
+        height: 3rem;
         display: grid;
         justify-content: center;
         cursor: pointer;
