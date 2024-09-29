@@ -109,8 +109,11 @@ nav {
 
     & #principal{
         margin: 2rem 0rem;
+    }
 }
 
+ul{
+    font-size: 2rem;
 }
 
 img {

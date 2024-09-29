@@ -37,6 +37,10 @@ def powerpoint():
 def administracao():
     return render_template("administracao.html")
 
+@app.route("/gastronomia")
+def gastronomia():
+    return render_template("gastronomia.html")
+
 @app.route("/html&css")
 def htmlecss():
     return render_template("htmlecss.html")
