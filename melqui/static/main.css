@@ -112,12 +112,19 @@ nav {
     }
 }
 
+section.explicando {
+    display: grid;
+    gap: 1rem;
+}
+
 ul{
+    display: grid;
+    gap: 2rem;
     font-size: 2rem;
 }
 
 img {
-    width: 100rem;
+    width: 115rem;
     height: 80rem;
 }
 
