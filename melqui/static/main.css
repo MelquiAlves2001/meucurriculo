@@ -164,3 +164,9 @@ footer {
     padding: 1rem;
 }
 
+.conhecimento_area {
+    display: grid;
+    gap: 4rem;
+    color: white;
+    font-size: 2.2rem;
+}
