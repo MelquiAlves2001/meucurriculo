@@ -2,8 +2,8 @@ from flask import render_template, request, url_for, redirect
 from melqui import app
 
 @app.route("/")
-def sobremim():
-    return render_template("sobremim.html")
+def quemsoueu():
+    return render_template("quemsoueu.html")
 
 @app.route("/sql")
 def sql():
