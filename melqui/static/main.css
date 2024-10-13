@@ -107,8 +107,19 @@ nav {
         text-align: left;
     }
 
-    & #principal{
-        margin: 2rem 0rem;
+    & #h1principal{
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    & .conteudo-principal {
+    display: grid;
+    gap: 4rem;
+    }
+
+    & .h1experiencias {
+    text-align: center;
+    font-size: 4rem;
     }
 }
 
@@ -170,3 +181,4 @@ footer {
     color: white;
     font-size: 2.2rem;
 }
+
