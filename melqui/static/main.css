@@ -126,11 +126,21 @@ nav {
 section.explicando {
     display: grid;
     gap: 1rem;
+
+    & .titulo_gastronomia, .titulo_receitas {
+        text-align: center;
+    }
 }
 
-ul{
+.lista_gastronomia{
     display: grid;
-    gap: 2rem;
+    gap: 3rem;
+    font-size: 2rem;
+}
+
+.receitas {
+    display: grid;
+    gap: 3rem;
     font-size: 2rem;
 }
 
@@ -182,8 +192,4 @@ footer {
     font-size: 2.2rem;
 }
 
-.receitas {
-    display: grid;
-    gap: 2rem;
-    font-size: 2rem;
-}
+
