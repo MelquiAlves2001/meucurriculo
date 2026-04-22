@@ -41,6 +41,10 @@ def administracao():
 def gastronomia():
     return render_template("gastronomia.html")
 
+@app.route("/minhavisao")
+def minhavisao():
+    return render_template("minhavisao.html")
+
 @app.route("/html&css")
 def htmlecss():
     return render_template("htmlecss.html")
