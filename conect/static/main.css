@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%
+}
+
+header {
+    text-decoration-line: none;
+    background: black;
+    height: 7rem;
+}
+/*
+@media (min-width: 992px) {
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f4f4f9;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+*/
+
+
+body {
+    height: 50rem;
+    margin: 2rem;
+    padding: 2rem;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.4;
+    background-color: black;
+    display: grid;
+}
+
+
+.navbar-expand-lg {
+        margin: 0.5rem;
+        padding: 0.5rem;
+        display: flex;
+        gap: 2rem;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+        display: flex;
+        gap: 1rem;
+        flex-wrap: nowrap;
+        justify-content: flex-start;
+}
+
+.navbar-dark .navbar-brand {
+            color: white;
+            font-size: 2rem;
+        }
+
+a {
+    color: aliceblue;
+    font-size: 2rem;
+    text-decoration: none;
+    color: white;
+}
+
+    & .navbar-brand {
+        font-size: 2rem;
+    }
+}
+
+.grid {
+    widht: 100rem;
+    display: grid;
+    grid-auto-flow: rows;
+    gap: 2rem;
+}
+.conect {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white
+}
+.mae {
+    height: auto;
+    width: auto;
+    padding: 1rem;
+    margin: 1rem;
+    display: grid;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    & div{
+        padding: 2rem;
+    }
+
+    & h1 {
+        font-size: 3rem;
+        color: white;
+    }
+    & h4 {
+        font-size: 2.2rem;
+        color:white
+    }
+    & p {
+        font-size: 1.8rem;
+        text-align: left;
+    }
+
+    & #h1principal{
+        text-align: center;
+        font-size: 4rem;
+    }
+
+    & .conteudo-principal {
+    display: grid;
+    gap: 4rem;
+    }
+
+    & .h1experiencias {
+    text-align: center;
+    font-size: 4rem;
+    }
+}
+
+
+section.explicando {
+    margin: 1rem;
+    display: grid;
+    gap: 1rem;
+
+    & .titulo_gastronomia, .titulo_receitas {
+        text-align: center;
+    }
+}
+
+.floating-button {
+  position: fixed; /* Fixa o botão na tela */
+  right: 3rem;     /* Define a distância do botão à parte direita da tela */
+  z-index: 1000;   /* Garante que o botão esteja sempre na frente de outros elementos */
+  background-color: none; /* Cor de fundo do botão */
+  color: black;             /* Cor do texto do botão */
+  padding: 0.5rem 0.5rem;       /* Espaçamento interno do botão */
+  border-radius: 3rem;       /* Arredonda as bordas do botão */
+  text-decoration: none;    /* Remove o sublinhado padrão de links */
+}
+
+
+.floating-button img {
+    width: 5rem;  /* Largura fixa */
+    height: 5rem; /* Altura fixa */
+    object-fit: cover; /* Garante que a imagem preencha o botão */
+    border-radius: 30%; /* Torna a imagem circular */
+}
+
+
+footer {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-from melqui import app
+from conect import app
 
 if __name__ == '__main__':
     app.run(debug=True)
